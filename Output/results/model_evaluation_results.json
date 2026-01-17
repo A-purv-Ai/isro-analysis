@@ -1,0 +1,67 @@
+{
+  "test_performance": {
+    "accuracy": 0.8947368421052632,
+    "precision": 0.9411764705882353,
+    "recall": 0.9411764705882353,
+    "f1_score": 0.9411764705882353,
+    "roc_auc": 0.6764705882352942
+  },
+  "cross_validation": {
+    "accuracy_mean": 0.827076923076923,
+    "accuracy_std": 0.13024364968789712,
+    "f1_mean": 0.8287588932806322,
+    "f1_std": 0.11844140339764458
+  },
+  "feature_importance": [
+    {
+      "Feature": "launch_quarter",
+      "Importance": 0.11982515024767712
+    },
+    {
+      "Feature": "orbit_encoded",
+      "Importance": 0.11864792529582499
+    },
+    {
+      "Feature": "payload_risk_score",
+      "Importance": 0.08642381397950688
+    },
+    {
+      "Feature": "launch_year",
+      "Importance": 0.08608314600644766
+    },
+    {
+      "Feature": "launch_frequency",
+      "Importance": 0.08065988971106222
+    },
+    {
+      "Feature": "payload_complexity",
+      "Importance": 0.07490813728673199
+    },
+    {
+      "Feature": "payload_mass_kg",
+      "Importance": 0.07455881572882228
+    },
+    {
+      "Feature": "launch_month",
+      "Importance": 0.06943763469035737
+    },
+    {
+      "Feature": "experience_index",
+      "Importance": 0.06456364525906685
+    },
+    {
+      "Feature": "is_monsoon_season",
+      "Importance": 0.0623439476200411
+    }
+  ],
+  "confusion_matrix": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      16
+    ]
+  ]
+}

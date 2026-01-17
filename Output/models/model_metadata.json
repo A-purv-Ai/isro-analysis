@@ -1,0 +1,30 @@
+{
+  "feature_names": [
+    "rocket_type_encoded",
+    "launch_site_encoded",
+    "orbit_encoded",
+    "payload_mass_kg",
+    "payload_count",
+    "payload_complexity",
+    "payload_risk_score",
+    "experience_index",
+    "configuration_maturity",
+    "launch_frequency",
+    "is_monsoon_season",
+    "launch_year",
+    "launch_month",
+    "launch_quarter",
+    "days_since_previous_launch"
+  ],
+  "n_features": 15,
+  "model_type": "RandomForestClassifier",
+  "best_params": {
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "n_estimators": 300
+  },
+  "training_samples": 126,
+  "test_samples": 19
+}

@@ -1,0 +1,24 @@
+# ISRO Launch Risk Prediction - Project Requirements
+# Student: Apurva Upadhyay (IIT Ropar)
+# Compatible with Python 3.8+
+
+# --- Data Acquisition & Validation (Notebook 01) ---
+requests>=2.31.0          # Handles HTTP sessions to fetch raw Wikipedia launch history pages.
+beautifulsoup4>=4.12.0    # Parses complex HTML tables to extract PSLV, GSLV, and LVM3 records.
+pydantic>=2.5.0           # Enforces strict data schemas for mission attributes (mass, date, outcome).
+
+# --- Data Processing & Analysis (Notebooks 01-04) ---
+pandas>=2.1.0             # Primary tool for DataFrame manipulation, cleaning messy Wikipedia rows, and feature engineering  [cite: 01-04].
+numpy>=1.24.0             # Supports vector operations and handling NaN values during mass aggregation.
+
+# --- Visualization & EDA (Notebook 03) ---
+matplotlib>=3.7.0         # Provides the foundation for all plots; used to export figures to the /Output folder.
+seaborn>=0.12.0           # Used for statistical plots like the success rate heatmap and feature correlation matrix.
+
+# --- Machine Learning & Imbalance Handling (Notebook 04) ---
+scikit-learn>=1.3.0       # Implements the Random Forest Classifier, GridSearchCV, and evaluation metrics.
+imbalanced-learn>=0.11.0  # Crucial for SMOTE over-sampling to balance the rare 'Failure' class in training.
+
+# --- Jupyter Environment ---
+jupyter>=1.0.0            # Core platform for the project's chronological narrative notebooks.
+ipykernel>=6.25.0         # Connects the local Python environment to the Jupyter/VS Code interface.
