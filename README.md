@@ -68,12 +68,12 @@ In the future, I want to add weather data like wind speed and temperature at lau
 
 ## Project Files
 
-- `ISRO_Launch_Trend_Analysis_Report.ipynb`: Main Jupyter notebook with analysis and model
+- `ISRO_Launch_Trend_Analysis_Report.ipynb`: Main Jupyter notebook describing foundational information about this project.
 - `README.md`: This file
 
 ## About Me
 
-I'm a Mechanical Engineering student pursuing a Minor in AI through IIT Ropar. I'm interested in data science, machine learning, and space technology. This project combines all three areas.
+I'm a Mechanical Engineer & pursuing a Minor in AI through IIT Ropar. I'm interested in data science, machine learning, and other AI technologies. This project combines all three areas.
 
 ## Acknowledgments
 
