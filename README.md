@@ -49,7 +49,7 @@ I chose a Random Forest Classifier for this task to handle the non-linear relati
 The system works like this:
 
 - **Inputs**: Rocket variant, total payload mass in kg, orbit type, and launch site.
-- **Class Balancing & Processing**: Categorical data is converted using One-Hot Encoding, and the training set is balanced using **SMOTE (Synthetic Minority Over-sampling Technique)** address the significant class imbalance (8:1 success-to-failure ratio), preventing the model from becoming biased toward predicting "Success" by default.
+- **Class Balancing & Processing**: Categorical data is converted using Label Encoding, and the training set is balanced using **SMOTE (Synthetic Minority Over-sampling Technique)** address the significant class imbalance (8:1 success-to-failure ratio), preventing the model from becoming biased toward predicting "Success" by default.
 - **Hyperparameter Tuning**: Utilized **GridSearchCV** with **5-Fold Cross-Validation** to optimize forest depth and estimator count, ensuring the model generalizes well to new mission profiles.
 - **Output**: Instead of just saying Success or Failure, the model gives a probability score like "This mission has an 85% chance of success", which is more useful for decision-making.
 
